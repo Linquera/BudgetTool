@@ -4,10 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6d51495b-0e84-4ee6-a087-c8e671dc63ce</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetTool.Domain\BudgetTool.Domain.csproj" />
+    <ProjectReference Include="..\BugetTool.IoC\BugetTool.IoC.csproj" />
   </ItemGroup>
 
 </Project>
